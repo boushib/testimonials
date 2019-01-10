@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Testimonials</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+
+    <div class="container testimonials">
+        <h2>What Our Clients Says About Us</h2>
+        <div id="reviews-carousel">
+            <div class="reviews">
+                <div class="review-box active">
+                    <div class="review">
+                        <!-- icon url: https://www.flaticon.com/free-icon/quotes_23713 -->
+                        <span class="quotation-mark">
+                            <img src="img/quote.svg" alt="">
+                        </span>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus necessitatibus vel quis
+                            modi
+                            ut
+                            animi soluta sit. Dolorum dolores, maxime commodi assumenda tempore, ea id inventore
+                            deleniti
+                            aliquid autem itaque!</p>
+                    </div>
+                    <div class="user">
+                        <div class="user-img">
+                            <img src="img/user-1.jpg" alt="">
+                        </div>
+                        <div class="user-info">
+                            <div class="info">
+                                <h4>John Doe</h4>
+                                <p>CEO, Google</p>
+                                <div class="rating">
+                                    <i class="fas fa-star checked"></i>
+                                    <i class="fas fa-star checked"></i>
+                                    <i class="fas fa-star checked"></i>
+                                    <i class="fas fa-star checked"></i>
+                                    <i class="fas fa-star checked"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-box">
+                    <div class="review">
+                        <!-- icon url: https://www.flaticon.com/free-icon/quotes_23713 -->
+                        <span class="quotation-mark">
+                            <img src="img/quote.svg" alt="">
+                        </span>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus necessitatibus vel quis
+                            modi
+                            ut
+                            animi soluta sit. Dolorum dolores, maxime commodi assumenda tempore, ea id inventore
+                            deleniti
+                            aliquid autem itaque!</p>
+                    </div>
+                    <div class="user">
+                        <div class="user-img">
+                            <img src="img/user-2.jpg" alt="">
+                        </div>
+                        <div class="user-info">
+                            <div class="info">
+                                <h4>Jack Smith</h4>
+                                <p>CEO, Google</p>
+                                <div class="rating">
+                                    <i class="fas fa-star checked"></i>
+                                    <i class="fas fa-star checked"></i>
+                                    <i class="fas fa-star checked"></i>
+                                    <i class="fas fa-star checked"></i>
+                                    <i class="fas fa-star checked"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-box">
+                    <div class="review">
+                        <!-- icon url: https://www.flaticon.com/free-icon/quotes_23713 -->
+                        <span class="quotation-mark">
+                            <img src="img/quote.svg" alt="">
+                        </span>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus necessitatibus vel quis
+                            modi
+                            ut
+                            animi soluta sit. Dolorum dolores, maxime commodi assumenda tempore, ea id inventore
+                            deleniti
+                            aliquid autem itaque!</p>
+                    </div>
+                    <div class="user">
+                        <div class="user-img">
+                            <img src="img/user-3.jpg" alt="">
+                        </div>
+                        <div class="user-info">
+                            <div class="info">
+                                <h4>Steve McDonalds</h4>
+                                <p>CEO, Google</p>
+                                <div class="rating">
+                                    <i class="fas fa-star checked"></i>
+                                    <i class="fas fa-star checked"></i>
+                                    <i class="fas fa-star checked"></i>
+                                    <i class="fas fa-star checked"></i>
+                                    <i class="fas fa-star checked"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="nav-arrows">
+                    <span class="nav-arrow arrow-next" id="arrow-left"></span>
+                    <span class="nav-arrow arrow-prev" id="arrow-right"></span>
+                </div> -->
+            <div class="nav-dots">
+                <span class="nav-dot active"></span>
+                <span class="nav-dot"></span>
+                <span class="nav-dot"></span>
+            </div>
+        </div>
+        <hr>
+        <h3>
+            Users rating:
+            <span>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star checked"></i>
+                <i class="fas fa-star"></i>
+            </span>
+        </h3>
+        <p>4.1 average based on 254 reviews</p>
+        <button class="btn" id="add-review">Add a review</button>
+        <!-- <div class="rating">
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star"></i>
+        </div> -->
+    </div>
+
+    <div class="popup" id="popup">
+        <div class="inner">
+            <h3>Add a rating</h3>
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your feedback"></textarea>
+            <button class="btn">Submit review</button>
+            <button class="btn btn-danger">Cancel</button>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
