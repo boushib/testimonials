@@ -55,4 +55,12 @@ $(function () {
         $('#popup').fadeOut();
     });
 
+    $('#popup').on('click', function(){
+        $(this).fadeOut();
+    });
+
+    $('#popup .inner').on('click', function(e){
+        e.stopPropagation();
+    });
+
 });
